@@ -1,0 +1,10 @@
+from urllib.parse import urlunparse
+
+
+uren = input
+minuten = input("hoelaat is het? ")
+
+print (f"uur {uren} : {minuten}")
+print ("hoelang duurt de dag nog? ")
+print (uren + minuten)
+
